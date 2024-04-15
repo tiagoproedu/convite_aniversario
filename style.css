@@ -8,24 +8,22 @@ body{
     min-height: 100vh;
     justify-content: center;
     font-family: 'Montserrat';
-    font-size: larger;
 }
 .texto{
     color: white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 .infos{
     color: white;
     display: flex;
-    justify-content: space-around;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 button{
     border-radius: 5%;
-    box-shadow: 2px 2px 2px;
+    box-shadow: 2px 2px;
+    background-color: white;
 }
